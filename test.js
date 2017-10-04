@@ -1,4 +1,4 @@
-
+console.log("V0.1.2");
 class board{
     constructor(x,y){
 		this.tile = [];
@@ -74,7 +74,7 @@ class board{
 //         score[player-1]++;
 //     }
 }
-console.log("BOARD LOADED");
+// console.log("BOARD LOADED");
 var game = new board();
 var turnNumber = 0;
 var gameOver = false;
@@ -268,4 +268,4 @@ function tile9(){
 		updateScreen();
 	}
 }
-console.log("loaded.");
+// console.log("loaded.");
