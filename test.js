@@ -165,7 +165,13 @@ function resetGame(){
   turnNumber=0;
   gameNumber++;
   gameOver=false;
-  document.getElementById("screenText").innerHTML = "Player 1's Turn!";
+  if (gameNumber%2==0){
+    document.getElementById("screenText").innerHTML = "Player 1's Turn!";
+  }
+  else {
+    document.getElementById("screenText").innerHTML = "Player 2's Turn!";
+
+  }
   document.getElementById("playagain").innerHTML = "";
 
 
